@@ -1,0 +1,448 @@
+
+
+.set-bg {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+}
+
+.spad {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.spad-2 {
+	padding-top: 50px;
+	padding-bottom: 70px;
+}
+
+
+/*---------------------
+  Hero
+-----------------------*/
+
+.hero-section {
+	height: 700px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+
+.hs-item .hs-text {
+	text-align: center;
+}
+
+.hs-item .hs-text h4 {
+	color: #ffffff;
+	margin-bottom: 25px;
+}
+
+.hs-item .hs-text h2 {
+	font-size: 48px;
+	color: #ffffff;
+	font-weight: 700;
+	margin-bottom: 32px;
+}
+/*---------------------
+  Match Section
+-----------------------*/
+
+.match-section {
+	padding: 70px 0 60px;
+}
+
+.ms-content h4 {
+	color: #ffffff;
+	font-weight: 500;
+	margin-bottom: 25px;
+}
+
+.ms-content .mc-table {
+	margin-bottom: 10px;
+}
+
+.ms-content .mc-table table {
+	width: 100%;
+}
+
+.ms-content .mc-table table tr {
+	background: rgba(21, 22, 24, 0.9);
+	margin-bottom: 10px;
+}
+
+.ms-content .mc-table table tr td {
+	padding: 16px 0;
+	width: 200px;
+}
+
+.ms-content .mc-table table tr td img {
+	height: 30px;
+	width: 50px;
+}
+
+.ms-content .mc-table table tr td h6 {
+	color: #ffffff;
+	display: inline-block;
+}
+
+.ms-content .mc-table table tr td.left-team {
+	padding-left: 40px;
+}
+
+.ms-content .mc-table table tr td.left-team img {
+	float: left;
+	margin-right: 10px;
+}
+
+.ms-content .mc-table table tr td.left-team h6 {
+	overflow: hidden;
+	line-height: 30px;
+}
+
+.ms-content .mc-table table tr td.right-team {
+	text-align: right;
+	padding-right: 40px;
+}
+
+.ms-content .mc-table table tr td.right-team img {
+	float: right;
+	margin-left: 10px;
+}
+
+.ms-content .mc-table table tr td.right-team h6 {
+	float: right;
+	line-height: 30px;
+}
+
+.ms-content .mc-table table tr td.mt-content {
+	width: 150px;
+	text-align: center;
+}
+
+.ms-content .mc-table table tr td.mt-content .mc-op {
+	font-size: 14px;
+	color: #ffffff;
+}
+
+.ms-content .mc-table table tr td.mt-content h4 {
+	color: #ffffff;
+	font-weight: 700;
+	margin-top: 14px;
+	margin-bottom: 12px;
+}
+
+
+
+/*---------------------
+  Latest News Section
+-----------------------*/
+
+.latest-news-section {
+	padding: 40px 0;
+}
+
+.latest-news-section .col-lg-12 {
+	padding-left: 5px !important;
+	padding-right: 5px !important;
+}
+
+.latest-news-section .col-lg-3 {
+	padding-left: 5px !important;
+	padding-right: 5px !important;
+}
+
+.latest-news-item {
+
+	cursor: pointer;
+	height: 405px;
+	position: relative;
+	margin-bottom: 10px;
+}
+
+.latest-news-item .si-tag {
+	color: #ffffff;
+	background:  linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+	font-size: 10px;
+	font-weight: 500;
+	display: inline-block;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	padding: 3px 9px;
+	position: absolute;
+	left: 10px;
+	top: 10px;
+}
+
+.latest-news-item .si-text {
+	position: absolute;
+	left: 0;
+	bottom: 25px;
+	width: 100%;
+	padding: 0 30px;
+}
+
+.latest-news-item .si-text h5 {
+	margin-bottom: 6px;
+}
+
+.latest-news-item .si-text h5 a {
+	color: #ffffff;
+	background:   linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+	font-weight: 900;
+	line-height: 26px;
+}
+
+.latest-news-item .si-text ul li {
+	list-style: none;
+	background:   linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+	display: inline-block;
+	font-size: 13px;
+	color: #ffffff;
+	margin-right: 20px;
+	position: relative;
+}
+
+.latest-news-item .si-text ul li:after {
+	position: absolute;
+	right: -12px;
+	top: 0;
+	content: "|";
+}
+
+.latest-news-item .si-text ul li:last-child {
+	margin-right: 0;
+}
+
+.latest-news-item .si-text ul li:last-child:after {
+	display: none;
+}
+/*---------------------
+  Video Section
+-----------------------*/
+
+.video-section {
+	padding: 40px 0;
+	margin-bottom: 40px;
+}
+
+.video-slider.owl-carousel {
+	margin-right: 0;
+}
+
+.video-slider.owl-carousel .col-lg-3 {
+	max-width: 100%;
+}
+
+.video-slider.owl-carousel .owl-nav {
+	position: absolute;
+	right: 15px;
+	top: -78px;
+}
+
+.video-slider.owl-carousel .owl-nav button {
+	font-size: 20px;
+	color: #636363;
+	width: 30px;
+	height: 30px;
+	border: 1px solid #d5d5d5;
+	line-height: 30px;
+	text-align: center;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+	margin-right: 10px;
+}
+
+.video-slider.owl-carousel .owl-nav button:last-child {
+	margin-right: 0;
+}
+
+.video-slider.owl-carousel .owl-nav button:hover {
+	background: #1d8cf8;
+	color: #ffffff;
+	border-color: #1d8cf8;
+}
+
+.video-item {
+	height: 200px;
+	position: relative;
+}
+
+.video-item:hover .play-btn {
+	opacity: 1;
+	visibility: visible;
+}
+
+.video-item .vi-title {
+	position: absolute;
+	left: 0;
+	top: 15px;
+	width: 100%;
+	padding: 0 20px;
+}
+
+.video-item .vi-title h5 {
+	color: #ffffff;
+	font-weight: 600;
+	line-height: 26px;
+}
+
+.video-item .play-btn {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-20px, -20px);
+	-ms-transform: translate(-20px, -20px);
+	transform: translate(-20px, -20px);
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.video-item .vi-time {
+	font-size: 14px;
+	color: #ffffff;
+	letter-spacing: 1px;
+	display: inline-block;
+	background: rgba(0, 0, 0, 0.7);
+	padding: 3px 10px;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+
+
+/*-------------------------------- Respinsive Media Styles --------------------------------*/
+
+@media only screen and (min-width: 1200px) {
+	.container {
+		max-width: 1200px;
+	}
+}
+
+/* Medium Device: 1200px */
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	
+	.ms-content .mc-table table tr td.left-team {
+		padding-left: 15px;
+	}
+	.ms-content .mc-table table tr td.right-team {
+		padding-right: 15px;
+	}
+	
+	.ftco-team .owl-nav .owl-next {
+		right: 0 !important; 
+	}
+	
+	.ftco-team .owl-nav .owl-prev {
+		right: 61px !important; 
+	}
+
+	
+	.testimony-section .owl-nav .owl-prev {
+		right: 61px !important; 
+	} 
+	
+	
+	.testimony-section .owl-nav .owl-next {
+		right: 0 !important; 
+	} 
+
+	
+	.ftco-team {
+		background-position: center center !important; 
+	} 
+	
+}
+
+@media only screen and (max-width: 991px) {
+	
+	.schedule-sidebar {
+		margin-top: 30px;
+	}
+	
+	.ftco-team .owl-nav {
+		display: none; 
+	} 
+
+	.testimony-section .owl-nav {
+		display: none;  
+	}
+	
+}
+
+
+/* Tablet Device: 768px */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.copyright-option .co-widget ul li {
+		margin-right: 10px;
+	}
+	
+}
+
+/* Large Mobile: 480px */
+
+@media only screen and (max-width: 767px) {
+
+	.ms-content .mc-table table tr td.left-team {
+		padding-left: 15px;
+	}
+	.ms-content .mc-table table tr td.right-team {
+		padding-right: 15px;
+	}
+	
+	.schedule-text .st-table table tbody tr td.left-team img {
+		float: none;
+		margin-right: 0;
+	}
+	.schedule-text .st-table table tbody tr td.left-team h4 {
+		overflow: visible;
+		display: block;
+		margin-top: 10px;
+	}
+	.schedule-text .st-table table tbody tr td.right-team img {
+		float: none;
+		margin-left: 0;
+	}
+	.schedule-text .st-table table tbody tr td.right-team h4 {
+		float: none;
+		margin-top: 10px;
+	}
+	
+	.hs-slider.owl-carousel .owl-nav {
+		right: 60px;
+	}
+	
+	
+}
+
+/* Small Mobile: 320px */
+
+@media only screen and (max-width: 479px) {
+	
+	.schedule-text .st-table {
+		overflow-x: auto;
+	}
+	
+	
+	.hs-slider.owl-carousel .owl-nav {
+		right: 20px;
+	}
+	
+	.video-item {
+		height: 300px;
+	}
+	
+}
+
