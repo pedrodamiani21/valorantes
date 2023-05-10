@@ -47,7 +47,7 @@ export default {
     name: 'NavBar',
     data: () => ({
         test: 1,
-        menu: [{ title: "Início", url: "/" }, { title: "Blog", url: "/blog" }, { title: "Partidas", url: "/partidas" }],
+        menu: [{ title: "Início", url: "/" },  { title: "Partidas", url: "/partidas" }],
         items: ""
     })
 }
